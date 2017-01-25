@@ -25,5 +25,9 @@ Route::get('/logIn', function () {
 
 
 Auth::routes();
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 
 Route::get('/home', 'HomeController@index');
