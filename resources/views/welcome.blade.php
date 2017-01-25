@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="myApp.js"></script>
   <style>
   body {
       font: 400 15px Lato, sans-serif;
@@ -213,7 +214,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#myPage"><img src="images/logo-mini.png"/ style="width: 130px"></a>
+      <a class="navbar-brand" href="#myPage"><img src="images/logo-mini.png" style="width: 130px"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -222,6 +223,8 @@
         <li><a href="#portfolio">PORTFOLIO</a></li>
         <li><a href="#pricing">PRICING</a></li>
         <li><a href="#contact">CONTACT</a></li>
+        <li><a id = "loginButton" href="#">LogIn</a></li>
+        <li><a id = "logoutButton" href="#">LogOut</a></li>
       </ul>
     </div>
   </div>
