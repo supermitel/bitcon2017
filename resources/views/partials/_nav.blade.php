@@ -11,10 +11,10 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="/">Home</a></li>
-        <li><a href="pages.sponsori">SERVICES</a></li>
-        <li><a href="#portfolio">PORTFOLIO</a></li>
-        <li><a href="#pricing">PRICING</a></li>
-        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="pages.sponsori">Sponsori</a></li>
+        <li><a href="pages.inscriete">Inscrie-te</a></li>
+        <li><a href="pages.contact">Contact</a></li>
+
       </ul>
     </div>
   </div>
