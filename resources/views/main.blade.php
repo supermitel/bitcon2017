@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <script src="js/particles.js" type="text/javascript"></script>
   <link rel="stylesheet" href="css/style.css">
   <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
