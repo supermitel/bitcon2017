@@ -18,6 +18,12 @@ Route::get('/', function () {
 Route::get('/sponsori', function () {
     return view('pages.sponsori');
 });
+Route::get('/inscriete', function () {
+    return view('pages.inscriete');
+});
+Route::get('/contact', function () {
+    return view('pages.contact');
+});
 
 Route::get('/logIn', function () {
     return view('layouts.app');
@@ -25,9 +31,6 @@ Route::get('/logIn', function () {
 
 
 Auth::routes();
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/master
 
 Route::get('/home', 'HomeController@index');

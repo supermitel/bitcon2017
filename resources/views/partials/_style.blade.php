@@ -129,12 +129,14 @@
       letter-spacing: 4px;
       border-radius: 0;
       font-family: Montserrat, sans-serif;
+      padding: 10px;
   }
   .navbar li a, .navbar .navbar-brand {
       color: #fff !important;
        -webkit-transition: 0.6s; /* For Safari 3.1 to 6.0 */
     transition: 0.6s;
     border-radius: 6px ;
+
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
       color: #f4511e !important;
@@ -242,4 +244,6 @@
 .carousel{
   height: 200px;
 }
+
+
 </style>
