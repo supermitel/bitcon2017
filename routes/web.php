@@ -14,17 +14,17 @@
 Route::get('/', function () {
     return view('main');
 });
-<<<<<<< HEAD
+
 Route::get('/sponsori', function () {
     return view('pages.sponsori');
 });
-=======
+
 Route::get('/logIn', function () {
     return view('layouts.app');
 });
 
 
 Auth::routes();
->>>>>>> origin/master
+
 
 Route::get('/home', 'HomeController@index');
