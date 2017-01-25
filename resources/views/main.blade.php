@@ -17,7 +17,6 @@
  @include('partials._nav')
   @include('partials._content')
 
-
 @include('partials._footer')
 </body>
 </html>
