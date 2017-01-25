@@ -18,6 +18,7 @@
    <script src="js/index.js" type="text/javascript"></script>
   @include('partials._style')
  </head>
+
   
   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
    <div id="particles-js"></div>
@@ -27,5 +28,7 @@
         @include('partials._footer')
     </div>
    
+
+
 </body>
 </html>
