@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace bitcon2017\Providers;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'App\Model' => 'App\Policies\ModelPolicy',
+        'bitcon2017\Model' => 'bitcon2017\Policies\ModelPolicy',
     ];
 
     /**

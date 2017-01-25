@@ -1,9 +1,19 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "name": "supermitel/bitcon2017",
+    "description": "Site for Brasov IT Contest 2017",
+    "keywords": ["bitcon", "site", "brasov", "2017"],
     "license": "MIT",
     "type": "project",
+    "authors": [
+        {
+            "name": "Răzvan Mitel Ardelean",
+            "email": "supermitel@gmail.com"
+        },
+        {
+            "name": "Alex Iancu",
+            "email": "alex1gtp@gmail.com"
+        }
+    ],
     "require": {
         "php": ">=5.6.4",
         "laravel/framework": "5.4.*",
@@ -19,7 +29,7 @@
             "database"
         ],
         "psr-4": {
-            "App\\": "app/",
+            "bitcon2017\\": "app/",
             "Tests\\": "tests/"
         }
     },

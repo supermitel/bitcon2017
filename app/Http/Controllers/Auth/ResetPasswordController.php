@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace bitcon2017\Http\Controllers\Auth;
 
-use App\Http\Controllers\Controller;
+use bitcon2017\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 class ResetPasswordController extends Controller

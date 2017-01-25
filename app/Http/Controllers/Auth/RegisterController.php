@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace bitcon2017\Http\Controllers\Auth;
 
-use App\User;
-use App\Http\Controllers\Controller;
+use bitcon2017\User;
+use bitcon2017\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 

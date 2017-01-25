@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Exceptions;
+namespace bitcon2017\Exceptions;
 
 use Exception;
 use Illuminate\Auth\AuthenticationException;

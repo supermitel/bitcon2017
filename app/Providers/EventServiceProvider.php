@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace bitcon2017\Providers;
 
 use Illuminate\Support\Facades\Event;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -13,8 +13,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'App\Events\SomeEvent' => [
-            'App\Listeners\EventListener',
+        'bitcon2017\Events\SomeEvent' => [
+            'bitcon2017\Listeners\EventListener',
         ],
     ];
 
