@@ -13,7 +13,7 @@
   <script src="myApp.js"></script>
   <style>
   body {
-      font: 400 15px Lato, sans-serif;
+      font: 400 15px Lato Light, sans-serif;
       line-height: 1.8;
       color: #818181;
   }
@@ -30,6 +30,12 @@
       color: #303030;
       font-weight: 400;
       margin-bottom: 30px;
+  }
+  .container-section{
+
+
+        background-color: rgba(192,192,192,0.2);
+
   }
   .logo-img{
         width: 100%;
@@ -202,7 +208,23 @@
         width: 700px;
     }  
 }
-  </style>
+.category{
+    width: 50px;
+  
+}
+#particles-js {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  user-select: none;
+  
+}
+
+</style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
@@ -248,12 +270,13 @@
       <br><button class="btn btn-default btn-lg">Get in Touch</button>
     </div><br><br>
     <div class="col-sm-4">
-        <img src="assets/images/network.png" style="width: 22vw;">
+        <img src="images/network.png" style="width: 22vw;">
     </div>
   </div>
 </div>
 
-<div class="container-fluid bg-grey">
+<div class="container-section">
+   <div class="container">
   <div class="row">
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-globe logo slideanim"></span>
@@ -265,77 +288,51 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
   </div>
-</div>
+  </div>
+  </div>
+
+
 
 <!-- Container (Services Section) -->
 <div id="services" class="container-fluid text-center">
-  <h2>SERVICES</h2>
-  <h4>What we offer</h4>
+  <h2>CATEGORII</h2>
+  
   <br>
   <div class="row slideanim">
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-off logo-small"></span>
-      <h4>POWER</h4>
+      <object data="images/desktop.svg" type="image/svg+xml" class="category"> </object>
+      <h4>Desktop</h4>
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-heart logo-small"></span>
-      <h4>LOVE</h4>
+       <object data="images/mobile.svg" type="image/svg+xml" class="category"> </object>
+      <h4>Mobile</h4>
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-lock logo-small"></span>
-      <h4>JOB DONE</h4>
+       <object data="images/embedded.svg" type="image/svg+xml" class="category"> </object>
+      <h4>Embedded</h4>
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
   </div>
   <br><br>
   <div class="row slideanim">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-leaf logo-small"></span>
-      <h4>GREEN</h4>
+    <div class="col-sm-6">
+      <object data="images/web.svg" type="image/svg+xml" class="category"> </object>
+      <h4>Web</h4>
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-certificate logo-small"></span>
-      <h4>CERTIFIED</h4>
+    <div class="col-sm-6">
+      <object data="images/security.svg" type="image/svg+xml" class="category"> </object>
+      <h4>Security</h4>
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-wrench logo-small"></span>
-      <h4 style="color:#303030;">HARD WORK</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
+    
   </div>
 </div>
 
 <!-- Container (Portfolio Section) -->
-<div id="portfolio" class="container-fluid text-center bg-grey">
-  <h2>Portfolio</h2><br>
-  <h4>What we have created</h4>
-  <div class="row text-center slideanim">
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="paris.jpg" alt="Paris" width="400" height="300">
-        <p><strong>Paris</strong></p>
-        <p>Yes, we built Paris</p>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="newyork.jpg" alt="New York" width="400" height="300">
-        <p><strong>New York</strong></p>
-        <p>We built New York</p>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
-        <p><strong>San Francisco</strong></p>
-        <p>Yes, San Fran is ours</p>
-      </div>
-    </div>
-  </div><br>
+<br>
   
   <h2>What our customers say</h2>
   <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
@@ -372,71 +369,7 @@
 </div>
 
 <!-- Container (Pricing Section) -->
-<div id="pricing" class="container-fluid">
-  <div class="text-center">
-    <h2>Pricing</h2>
-    <h4>Choose a payment plan that works for you</h4>
-  </div>
-  <div class="row slideanim">
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>Basic</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>20</strong> Lorem</p>
-          <p><strong>15</strong> Ipsum</p>
-          <p><strong>5</strong> Dolor</p>
-          <p><strong>2</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
-        </div>
-        <div class="panel-footer">
-          <h3>$19</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Sign Up</button>
-        </div>
-      </div>      
-    </div>     
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>Pro</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>50</strong> Lorem</p>
-          <p><strong>25</strong> Ipsum</p>
-          <p><strong>10</strong> Dolor</p>
-          <p><strong>5</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
-        </div>
-        <div class="panel-footer">
-          <h3>$29</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Sign Up</button>
-        </div>
-      </div>      
-    </div>       
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>Premium</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>100</strong> Lorem</p>
-          <p><strong>50</strong> Ipsum</p>
-          <p><strong>25</strong> Dolor</p>
-          <p><strong>10</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
-        </div>
-        <div class="panel-footer">
-          <h3>$49</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Sign Up</button>
-        </div>
-      </div>      
-    </div>    
-  </div>
-</div>
+
 
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey">
