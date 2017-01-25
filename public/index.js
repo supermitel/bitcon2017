@@ -1,12 +1,10 @@
-$(document).ready(function(){
-
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 200,
+      "value": 100,
       "density": {
         "enable": true,
-        "value_area":2024
+        "value_area":1000
       }
     },
     "color": {
@@ -28,13 +26,13 @@ particlesJS("particles-js", {
       "random": false,
       "anim": {
         "enable": false,
-        "speed": 3,
+        "speed": 1,
         "opacity_min": 0.1,
         "sync": false
       }
     },
     "size": {
-      "value": 5,
+      "value": 2,
       "random": true,
       "anim": {
         "enable": false,
@@ -48,7 +46,7 @@ particlesJS("particles-js", {
       "distance": 80,
       "color": "#111",
       "opacity": 0.9,
-      "width": 1.2
+      "width": 1
     },
   },
   "interactivity": {
@@ -59,7 +57,7 @@ particlesJS("particles-js", {
         "mode": "grab"
       },
       "onclick": {
-        "enable": true
+        "enable": false
       },
       "resize": true
     },
@@ -90,6 +88,4 @@ particlesJS("particles-js", {
     }
   },
   "retina_detect": true
-});
-
 });

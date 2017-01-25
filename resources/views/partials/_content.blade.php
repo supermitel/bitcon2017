@@ -16,21 +16,21 @@
       <br><button class="btn btn-default btn-lg">Get in Touch</button>
     </div><br><br>
     <div class="col-sm-4">
-        <img src="images/network.png" style="width: 22vw;">
+        <img src="images/network.png" style="width: 20vw;">
     </div>
   </div>
 </div>
 
-<div class="container-section">
+<div class="container-section" style="background-color: rgba(0, 67, 38, .8); color: white;">
    <div class="container">
-  <div class="row">
+  <div class="row"><br><Br>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-globe logo slideanim"></span>
     </div>
-    <div class="col-sm-8">
-      <h2>Our Values</h2><br>
-      <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-      <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    <div class="col-sm-8" >
+      <h2 style="color: white;">Our Values</h2><br>
+      <h4 style="color: white;"><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
+      <p style="color: white;"><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
   </div>
@@ -40,65 +40,88 @@
 
 
 <!-- Container (Services Section) -->
-<div id="services" class="container-fluid text-center">
+<div id="services" class="container-fluid text-center" style="background-color: rgba(3, 134, 159, .3);">
   <h2>CATEGORII</h2>
   
   <br>
+
   <div class="row slideanim">
+ <center>
     <div class="col-sm-4">
+     <center>
+      <div class="object">
       <object data="images/desktop.svg" type="image/svg+xml" class="category"> </object>
+      </div>
       <h4>Desktop</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <p></p>
     </div>
     <div class="col-sm-4">
+     <center>
+    <div class="object">
        <object data="images/mobile.svg" type="image/svg+xml" class="category"> </object>
+    </div>   
       <h4>Mobile</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <p></p>
     </div>
     <div class="col-sm-4">
+     <center>
+    <div class="object">
        <object data="images/embedded.svg" type="image/svg+xml" class="category"> </object>
+    </div>   
       <h4>Embedded</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <p></p>
     </div>
+    </center>
   </div>
+
   <br><br>
   <div class="row slideanim">
+  <center>
     <div class="col-sm-6">
+    <div class="object">
       <object data="images/web.svg" type="image/svg+xml" class="category"> </object>
+      </div>
       <h4>Web</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <p></p>
     </div>
     <div class="col-sm-6">
+    <div class="object">
       <object data="images/security.svg" type="image/svg+xml" class="category"> </object>
+      </div>
       <h4>Security</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+      <p></p>
     </div>
-    
+   </center>  
   </div>
+</div>
 </div>
 
 <!-- Container (Portfolio Section) -->
 <br>
   
-  <h2>What our customers say</h2>
-  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+  <center><h2>Parteneri</h2></center>
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel" >
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
     </ol>
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
+    <div class="carousel-inner" role="listbox" >
       <div class="item active">
-        <h4>"This company is the best. I am so happy with the result!"<br><span style="font-style:normal;">Michael Roe, Vice President, Comment Box</span></h4>
+        <br><h2>Siemens</h2>
       </div>
       <div class="item">
-        <h4>"One word... WOW!!"<br><span style="font-style:normal;">John Doe, Salesman, Rep Inc</span></h4>
+        <br><h2>Academia de informatica - Brasov</h2>
       </div>
       <div class="item">
-        <h4>"Could I... BE any more happy with this company?"<br><span style="font-style:normal;">Chandler Bing, Actor, FriendsAlot</span></h4>
+        <br><h2>Elektrobit</h2>
+      </div>
+      <div class="item">
+        <br><h2>Universitatea "Transilvania" Brasov</h2>
       </div>
     </div>
 
@@ -112,20 +135,21 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-</div>
+
 
 <!-- Container (Pricing Section) -->
 
 
 <!-- Container (Contact Section) -->
-<div id="contact" class="container-fluid bg-grey">
-  <h2 class="text-center">CONTACT</h2>
+
+<div id="contact" class="container-fluid bg-grey" style="background-color: rgba(0, 67, 38, .8); color: white; position: relative;">
+  <h2 class="text-center" style="color: white;">CONTACT</h2>
   <div class="row">
     <div class="col-sm-5">
-      <p>Contact us and we'll get back to you within 24 hours.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+      <p>Contacteaza-ne pentru mai multe detalii !</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Brasov, RO</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +40 771 588 107</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> academiadeinfo@gmail.com</p>
     </div>
     <div class="col-sm-7 slideanim">
       <div class="row">
@@ -151,7 +175,7 @@
 <!-- Add Google Maps -->
 <script src="https://maps.googleapis.com/maps/api/js"></script>
 <script>
-var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+var myCenter = new google.maps.LatLng(45.651142 , 25.602888);
 
 function initialize() {
 var mapProp = {

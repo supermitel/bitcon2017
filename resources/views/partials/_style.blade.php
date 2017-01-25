@@ -1,8 +1,10 @@
  <style>
   body {
-      font: 400 15px Lato Light, sans-serif;
+      font: 400 15px Lato, sans-serif;
       line-height: 1.8;
       color: #818181;
+      opacity: 1;
+
   }
   h2 {
       font-size: 24px;
@@ -197,11 +199,11 @@
 }
 .category{
     width: 50px;
-  
-}
+  }
+
 #particles-js {
   width: 100%;
-  height: 100%;
+  height: 3000px;
   margin-bottom: 0;
   z-index: 0;
   position: absolute;
@@ -210,5 +212,32 @@
   user-select: none;
   
 }
+.wrapper{
+  opacity: 2%;
+  z-index: 2;
+  position: relative;
+}
+.glyphicon{
+      -webkit-transition: 0.6s; /* For Safari 3.1 to 6.0 */
+    transition: 0.6s;
 
+}
+.glyphicon:hover{
+
+    background-color: white;
+     border-radius: 50px;
+}
+.object{
+  width: 200px;
+  transition: 1s;
+  
+}
+.object:hover{
+
+  border-radius: 30px;
+  background-color: rgba(0,0,0,.2);
+}
+.carousel{
+  height: 200px;
+}
 </style>

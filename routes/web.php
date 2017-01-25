@@ -14,4 +14,7 @@
 Route::get('/', function () {
     return view('main');
 });
+Route::get('/sponsori', function () {
+    return view('pages.sponsori');
+});
 

@@ -10,22 +10,20 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  
-  <script src="js/particles.js" type="text/javascript"></script>
-  <link rel="stylesheet" href="css/style.css">
+  <script src="index.js" type="text/javascript"></script>
   <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-   <script src='http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
-   <script src="js/index.js" type="text/javascript"></script>
   @include('partials._style')
  </head>
   
   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-   <div id="particles-js"></div>
-    <div class="wrapper">
-        @include('partials._nav')
-        @include('partials._content')
-        @include('partials._footer')
+    <div id="particles-js">
+      
     </div>
-   
+    <div class="wrapper">
+      @include('partials._nav')
+      @include('partials._content')
+      @include('partials._footer')
+      </div>
+    <script src='http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
 </body>
 </html>

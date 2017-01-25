@@ -13,6 +13,7 @@
       font: 400 15px Lato Light, sans-serif;
       line-height: 1.8;
       color: #818181;
+      position: relative;
   }
   h2 {
       font-size: 24px;
