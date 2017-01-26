@@ -5,7 +5,7 @@
        
             <div class="modal-body">
 
-                @include('auth.login')
+                @include('partials._loginForm')
 
             </div>
             <div class="modal-footer">

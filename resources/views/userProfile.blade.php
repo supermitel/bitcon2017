@@ -3,8 +3,9 @@
 @section('content')
 <div class="container" style="background-color: #eee">
 		<div class="row">
-				<br>
-				<center><h2> USERNAME </h2></center>
+			<br>
+			<br>
+				<center><h2> {{$user->email}} </h2></center>
 
 					<div class="col-sm-4"><img src="/images/userProfile.jpg" style="width: 300px; height: 300px"/></div>
 					<div class="col-sm-6 col-sm-2-offset"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -29,5 +30,6 @@
 
 
 
-</div>					
+</div>
+</div>
    @endsection
