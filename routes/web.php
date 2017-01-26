@@ -23,7 +23,7 @@ Route::get('/page/{pageName?}', function ($pageName=admin) {
     if (View::exists($pagePath)) {
         return view($pagePath);
     }
-    else return view('pages.notFound');
+    else return view('pages.404');
 });
 
 Route::get('profile', function(){

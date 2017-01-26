@@ -7,7 +7,7 @@
 <style>
 div1 {
 	float: left;
-    width: 200px;
+    width: 14.28%;
     height: 920px;
     background-color: red;
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
@@ -16,7 +16,7 @@ div1 {
     animation: example 1s infinite;
     animation-delay: 1s;
     z-index: 0;
-    opacity: 0.1;
+    
 }
 
 /* Safari 4.0 - 8.0 */
@@ -36,7 +36,7 @@ div1 {
 }
 div2 {
 	float: left;
-    width: 200px;
+    width: 14.28%;
     height: 920px;
     background-color: red;
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
@@ -45,7 +45,7 @@ div2 {
     animation: example2 1s infinite;
     animation-delay: 1.5s;
     z-index: 0;
-    opacity: 0.1;
+    
 }
 
 /* Safari 4.0 - 8.0 */
@@ -65,7 +65,7 @@ div2 {
 }
 div3 {
 	float: left;
-    width: 200px;
+    width: 14.28%;
     height: 920px;
     background-color: red;
     -webkit-animation-name: example3; /* Safari 4.0 - 8.0 */
@@ -74,7 +74,7 @@ div3 {
     animation: example3 1s infinite;
     animation-delay: 1.2s;
     z-index: 0;
-    opacity: 0.1;
+    
 }
 
 /* Safari 4.0 - 8.0 */
@@ -94,7 +94,7 @@ div3 {
 }
 div4 {
 	float: left;
-    width: 200px;
+    width: 14.28%;
     height: 920px;
     background-color: red;
     -webkit-animation-name: example4; /* Safari 4.0 - 8.0 */
@@ -103,7 +103,7 @@ div4 {
     animation: example4 1s infinite;
     animation-delay: 1.7s;
     z-index: 0;
-    opacity: 0.1;
+    
 }
 
 /* Safari 4.0 - 8.0 */
@@ -123,7 +123,7 @@ div4 {
 }
 div5 {
 	float: left;
-    width: 200px;
+    width: 14.28%;
     height: 920px;
     background-color: red;
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
@@ -132,7 +132,7 @@ div5 {
     animation: example 1s infinite;
     animation-delay: 1.6s;
     z-index: 0;
-    opacity: 0.1;
+    
 }
 
 /* Safari 4.0 - 8.0 */
@@ -152,7 +152,7 @@ div5 {
 }
 div6 {
 	float: left;
-    width: 200px;
+    width: 14.28%;
     height: 920px;
     background-color: red;
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
@@ -161,7 +161,7 @@ div6 {
     animation: example 1s infinite;
     animation-delay: 1.1s;
     z-index: 0;
-    opacity: 0.1;
+    
 }
 
 /* Safari 4.0 - 8.0 */
@@ -181,7 +181,7 @@ div6 {
 }
 div7 {
 	float: left;
-    width: 200px;
+    width: 14.28%;
     height: 920px;
     background-color: red;
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
@@ -190,7 +190,7 @@ div7 {
     animation: example 40s infinite;
     animation-delay: 0.9s;
     z-index: 0;
-    opacity: 0.1;
+    
 }
 
 /* Safari 4.0 - 8.0 */
@@ -209,30 +209,35 @@ div7 {
     100% {background-color: green;}
 }
 h1{
-	position: absolute; 
 	z-index: 2;
-	 position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%,-50%)
-    
-    font-size: 3em;
+    left: 0;
+    line-height: 200px;
+    margin: auto;
+    margin-top: 15%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+
+}
+.text{ 
+
 
 }
 .wrapper{
 	position: relative; 
-   width: 100%; 
-   justify-content: center;
+   	width: 100%;
+   	 vertical-align: middle;
+   
 }
 </style>
 </head>
 <body>
 
-<p><b>Note:</b> This example does not work in Internet Explorer 9 and earlier versions.</p>
+
 <div class="wrapper">
-<center><h1>404</h1>
-</center>
+
+<h1 style="font-size: 25vw; color: black;" align="center">404</h1>
+
 <div1></div1>
 <div2></div2>
 <div3></div3>
