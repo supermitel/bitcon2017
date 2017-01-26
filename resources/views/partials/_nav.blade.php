@@ -14,7 +14,7 @@
         <li><a href="/sponsori">Sponsori</a></li>
         <li><a href="/inscriete">Inscrie-te</a></li>
         <li><a href="/contact">Contact</a></li>
-
+          <li><a data-toggle="modal" data-target="#loginModal">logIn</a></li>
       </ul>
     </div>
   </div>

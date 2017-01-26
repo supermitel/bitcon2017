@@ -21,7 +21,8 @@
 
   
   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-   <div id="particles-js"></div>
+    @include('partials._logInModal')
+    <div id="particles-js"></div>
     <div class="wrapper">
         @include('partials._nav')
         @include('partials._content')
