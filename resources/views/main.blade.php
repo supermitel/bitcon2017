@@ -4,7 +4,7 @@
 
 <div class="jumbotron text-center"> 
    
-  <img src="images/logo.png" class="logo-img"> 
+  <img src="/images/logo.png" class="logo-img"> 
   
   <p>Brasov IT - Contest 2017</p> 
   
@@ -21,7 +21,7 @@
       <br>
     </div><br><br>
     <div class="col-sm-4">
-        <img src="images/network.png" style="width: 20vw;">
+        <img src="/images/network.png" style="width: 20vw;">
     </div>
   </div>
 </div>
@@ -55,7 +55,7 @@
     <div class="col-sm-4">
      <center>
       <div class="object">
-      <object data="images/desktop.svg" type="image/svg+xml" class="category"> </object>
+      <object data="/images/desktop.svg" type="image/svg+xml" class="category"> </object>
       </div>
       <h4>Desktop</h4>
       <p></p>
@@ -63,7 +63,7 @@
     <div class="col-sm-4">
      <center>
     <div class="object">
-       <object data="images/mobile.svg" type="image/svg+xml" class="category"> </object>
+       <object data="/images/mobile.svg" type="image/svg+xml" class="category"> </object>
     </div>   
       <h4>Mobile</h4>
       <p></p>
@@ -71,7 +71,7 @@
     <div class="col-sm-4">
      <center>
     <div class="object">
-       <object data="images/embedded.svg" type="image/svg+xml" class="category"> </object>
+       <object data="/images/embedded.svg" type="image/svg+xml" class="category"> </object>
     </div>   
       <h4>Embedded</h4>
       <p></p>
@@ -84,14 +84,14 @@
   <center>
     <div class="col-sm-6">
     <div class="object">
-      <object data="images/web.svg" type="image/svg+xml" class="category"> </object>
+      <object data="/images/web.svg" type="image/svg+xml" class="category"> </object>
       </div>
       <h4>Web</h4>
       <p></p>
     </div>
     <div class="col-sm-6">
     <div class="object">
-      <object data="images/security.svg" type="image/svg+xml" class="category"> </object>
+      <object data="/images/security.svg" type="image/svg+xml" class="category"> </object>
       </div>
       <h4>Security</h4>
       <p></p>

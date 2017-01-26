@@ -6,14 +6,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#myPage"><img src="images/logo-mini.png"/ style="width: 130px"></a>
+      <a class="navbar-brand" href="#myPage"><img src="/images/logo-mini.png"/ style="width: 130px"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="/">Home</a></li>
-        <li><a href="/sponsori">Sponsori</a></li>
-        <li><a href="/inscriete">Inscrie-te</a></li>
-        <li><a href="/contact">Contact</a></li>
+        <li><a href="/page/sponsori">Sponsori</a></li>
+        <li><a href="/page/inscriete">Inscrie-te</a></li>
+        <li><a href="/page/contact">Contact</a></li>
           <li><a href="#" data-toggle="modal" data-target="#loginModal">logIn</a></li>
       </ul>
     </div>
