@@ -1,51 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>Bit-CON | Brasov</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
-      <link rel="stylesheet" href="css/inscriere.css">
-    <script src="js/inscriere.js"></script>
-  <script src="js/particles.js" type="text/javascript"></script>
-  <link rel="stylesheet" href="css/style.css">
-  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-   <script src='http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
-   <script src="js/index.js" type="text/javascript"></script>
-  @include('partials._style')
-  <style>
-  #particles-js {
-  width: 100%;
-  height: 1020px;
-  margin-bottom: 0;
-  z-index: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  user-select: none;
-  
-}
-  
-</style>
- </head>
+@extends('/layout')
 
-  
-  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-  @include('partials._logInModal')
-   <div id="particles-js"></div>
-    <div class="wrapper">
-        @include('partials._nav')<br>
-        @include('partials._inscriete')
-        @include('partials._footer')
+@section('content')
+
+   <br><Br><Br> <Br><div class="Content" style="padding: 10px">
+        <div id = "FormBox"  style="background-color: #eee;">
+            <h1> Formular de înscriere: </h1>
+            <form>
+                <fieldset>
+                    <legend>Date de contact</legend>
+                    
+                    <div class="formInput input">
+        				<input class="formControl" id="nume" name="nume" type="text" placeholder="Nume">
+        				<label for="nume">Nume</label>
+        				<span class="formBar"></span>
+    		    	</div>
+    			    <div class="check-input check-input-hidden">Introduceți numele.</div>
+    			    <br>
+    			    <div class="formInput input">
+        				<input class="formControl" id="prenume" name="prenume" type="text" placeholder="Prenume">
+        				<span class="formBar"></span>
+        				<label for="prenume">Prenume</label>
+    		    	</div>
+    			    <div class="check-input check-input-hidden">Introduceți prenumele.</div>
+    			    <br>
+                    <div class="formInput">
+        				<input class="formControl" id="email" type="email" name="email" placeholder="Email Adress">
+        				<span class="formBar"></span>
+        				<label for="email">Email Adress</label>
+        			</div> <br>
+                    <div class="validEmail"></div>
+                    <div class="formInput">
+                        <input class="formControl" id="judet" type="judet" name="judet" placeholder="Email Adress">
+                        <span class="formBar"></span>
+                        <label for="judet">Judet</label>
+                    </div> <br>
+                    <div class="formInput">
+                        <input class="formControl" id="scoala" type="scoala" name="scoala" placeholder="Email Adress">
+                        <span class="formBar"></span>
+                        <label for="scoala">Unitate de invatamant</label>
+                    </div> <br>
+                    <div class="formInput">
+                        <input class="formControl" id="an" type="an" name="an" placeholder="Email Adress">
+                        <span class="formBar"></span>
+                        <label for="an">Anul de studiu (facultate)</label>
+                    </div> <br>
+
+			     
+                    Adauga CV : <input type="file" name="img">
+                    Adauga fotografie : <input type="file" name="img">
+                </fieldset>
+                <br>
+                <fieldset>
+                    
+                    <label class = "formInput" > Categorie: 
+                        <select >
+                            <option> Desktop</option>
+                            <option> Mobile</option>
+                            <option> Embedded</option>
+                            <option> Web</option>
+                            <option> Security</option>
+                            
+                        </select>
+                    </label>
+                </fieldset>
+                
+                <button type="submit" id="SubmitButton" class="buttonSubmitUser button button-blue" >Submit </button>
+            </form>
+        </div>
+    
+    
     </div>
-   
-
-
-</body>
-</html>
+   @endsection 

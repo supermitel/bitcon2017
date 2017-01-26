@@ -207,10 +207,10 @@
 
 #particles-js {
   width: 100%;
-  height: 3000px;
+  height: 100%;
   margin-bottom: 0;
   z-index: 0;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   user-select: none;

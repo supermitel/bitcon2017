@@ -1,48 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>Bit-CON | Brasov</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <script src="js/particles.js" type="text/javascript"></script>
-  <link rel="stylesheet" href="css/style.css">
-  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-   <script src='http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
-   <script src="js/index.js" type="text/javascript"></script>
-  @include('partials._style')
-  <style>
-  #particles-js {
-  width: 100%;
-  height: 920px;
-  margin-bottom: 0;
-  z-index: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  user-select: none;
-  
-}
-</style>
- </head>
+@extends('/layout')
 
-  
-  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-  @include('partials._logInModal')
-   <div id="particles-js"></div>
-    <div class="wrapper">
-        @include('partials._nav')
-        @include('partials._contact')
-        @include('partials._footer')
-    </div>
+@section('content')
+
+<center><div id="contact" class="container-fluid bg-grey" style="background-color: rgba(0, 67, 38, .8); color: white; position: relative;">
+  <br><Br><BR>
+  <h2 class="text-center" style="color: white;">CONTACT</h2>
+  <div class="row">
+    
+      <p>Contacteaza-ne pentru mai multe detalii !</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Brasov, RO</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +40 771 588 107</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> academiadeinfo@gmail.com</p><br><br>
+    
    
+      <div class="row">
+     
+        <div class="col-sm-4 col-md-offset-4 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-sm-4 col-md-offset-4 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <div class="row">
+      <div class="col-sm-4 col-md-offset-4 form-group">
+        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="6"></textarea><br>
+      </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 col-md-offset-4 form-group">
+          <button class="btn btn-default pull-center" type="submit" style="width: 100px;">Trimite</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
-</body>
-</html>
+</center>
+<div id="googleMap" style="height:400px;width:100%;"></div>
+
+<!-- Add Google Maps -->
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script>
+var myCenter = new google.maps.LatLng(45.651142 , 25.602888);
+
+function initialize() {
+var mapProp = {
+  center:myCenter,
+  zoom:12,
+  scrollwheel:false,
+  draggable:false,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker = new google.maps.Marker({
+  position:myCenter,
+  });
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+@endsection

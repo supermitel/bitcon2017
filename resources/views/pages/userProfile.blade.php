@@ -1,36 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>Bit-CON | Brasov</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="icon" href="/favicon.ico" type="image/x-icon">
-  <script src="js/particles.js" type="text/javascript"></script>
-  <link rel="stylesheet" href="css/style.css">
-  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-   <script src='http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
-   <script src="js/index.js" type="text/javascript"></script>
-  @include('partials._style')
- </head>
+@extends('/layout')
+
+@section('content')
+<div class="container" style="background-color: #eee">
+		<div class="row">
+				<br>
+				<center><h2> USERNAME </h2></center>
+
+					<div class="col-sm-4"><img src="images/userProfile.jpg" style="width: 300px; height: 300px"/></div>
+					<div class="col-sm-6 col-sm-2-offset"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+		</div>
+	
+
+		<div class="row">
+				<br>
+				<div class="col-sm-5"></div>
+					<div class="col-sm-1 col-centered">
+					<center>
+					<h3> SKILLS </h3><br>
+						
+						<h4> JAVA </h4>
+						<h4> html </h4>
+						<h4> c++ </h4>
+						<h4> RUBY </h4>
+						<h4> Python </h4>
+						</center>
+					</div>
 
 
-  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-    @include('partials._logInModal')
-    <div id="particles-js"></div>
-    <div class="wrapper">
-        @include('partials._nav')
-        @include('partials._userProfile')
-        @include('partials._footer')
-    </div>
-s
-   
 
-
-</body>
-</html>
+</div>					
+   @endsection
