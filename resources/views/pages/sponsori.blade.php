@@ -4,7 +4,9 @@
 
 <div class="jumbotron text-center"> 
    
-  <img src="/images/logo.png" class="logo-img"> 
+
+  <img src="/images/logo.png" class="logo-img">
+
   
   <p>Brasov IT - Contest 2017</p> 
   

@@ -32,6 +32,17 @@ Route::get('/logIn', function () {
     return view('layouts.app');
 });
 
+use Illuminate\Support\Facades\View;
+
+Route::get('/page/{pageName?}', function ($pageName=admin) {
+    $pagePath = 'pages.'.$pageName;
+    if (View::exists($pagePath)) {
+        return view($pagePath);
+    }
+    else return view('pages.notFound');
+});
+
+
 
 Auth::routes();
 
