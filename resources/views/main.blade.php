@@ -19,7 +19,7 @@
   @include('partials._style')
  </head>
 
-  
+
   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
     @include('partials._logInModal')
     <div id="particles-js"></div>
@@ -28,6 +28,7 @@
         @include('partials._content')
         @include('partials._footer')
     </div>
+
    
 
 
