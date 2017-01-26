@@ -5,5 +5,6 @@ Iancu:
     Pagina Administrare
         -> participanti, nr participanti, echipe
         -> categorii
+        -> interfata modificare profil
         -> administrare postare anunțuri.(caseta cu formatare text)
         -> pentru postare anunțuri: pagina și versiunea mica (imagine, titlu text și butoane)
