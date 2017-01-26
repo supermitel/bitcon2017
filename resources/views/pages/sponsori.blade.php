@@ -52,6 +52,7 @@ h4{
 
   
   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  @include('partials._logInModal')
    <div id="particles-js"></div>
     <div class="wrapper">
         @include('partials._nav')

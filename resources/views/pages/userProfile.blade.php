@@ -17,30 +17,18 @@
    <script src='http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
    <script src="js/index.js" type="text/javascript"></script>
   @include('partials._style')
-  <style>
-  #particles-js {
-  width: 100%;
-  height: 920px;
-  margin-bottom: 0;
-  z-index: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  user-select: none;
-  
-}
-</style>
  </head>
 
-  
+
   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-  @include('partials._logInModal')
-   <div id="particles-js"></div>
+    @include('partials._logInModal')
+    <div id="particles-js"></div>
     <div class="wrapper">
         @include('partials._nav')
-        @include('partials._contact')
+        @include('partials._userProfile')
         @include('partials._footer')
     </div>
+s
    
 
 

@@ -24,6 +24,9 @@ Route::get('/inscriete', function () {
 Route::get('/contact', function () {
     return view('pages.contact');
 });
+Route::get('/userProfile', function () {
+    return view('pages.userProfile');
+});
 
 Route::get('/logIn', function () {
     return view('layouts.app');
