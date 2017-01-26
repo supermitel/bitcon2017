@@ -18,7 +18,7 @@ h4{
 
 
 </style>
-		<div class="container" style="padding-top: 30px; background-color: rgba(0, 67, 38, .8); color: white; position: relative;">
+		<div class="container" style="padding-top: 30px; background-color: rgba(0, 67, 38, .8); color: white; position: relative; height: 100%;">
 			<div class="rows">
 				<div class="col-sm-12" >
 					<center><h1> EMBEDDED </h1></center>

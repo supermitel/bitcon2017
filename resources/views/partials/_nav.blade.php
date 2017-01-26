@@ -12,6 +12,17 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="/">Home</a></li>
         <li><a href="/page/sponsori">Sponsori</a></li>
+        <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Categorii
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu" style="background-color: #004326">
+          <li><a href="/page/web">Web</a></li>
+          <li><a href="/page/desktop">Desktop</a></li>
+          <li><a href="/page/mobile">Mobile</a></li>
+          <li><a href="/page/embedded">Embedded</a></li>
+          <li><a href="/page/security">Security</a></li>
+        </ul>
+      </li>
         <li><a href="/page/inscriete">Inscrie-te</a></li>
         <li><a href="/page/contact">Contact</a></li>
         @if(\Illuminate\Support\Facades\Auth::check())
