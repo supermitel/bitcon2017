@@ -236,7 +236,7 @@ h1{
 
 <div class="wrapper">
 
-<h1 style="font-size: 25vw; color: black;" align="center">404</h1>
+<h1 style="font-size: 25vw; color: black"; align="center">404</h1>
 
 <div1></div1>
 <div2></div2>
