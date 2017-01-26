@@ -11,8 +11,10 @@
     <div id="particles-js"></div>
     <div class="wrapper">
         @include('partials._nav')
+      <div class="padding" style="padding-top: 60px">  
         @yield('content')
         @include('partials._footer')
+      </div>
     </div>
 
    

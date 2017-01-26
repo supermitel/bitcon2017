@@ -20,9 +20,9 @@
   <script src="js/particles.js" type="text/javascript"></script>
 
    <script src='http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
-   <script src="js/index.js" type="text/javascript"></script>
+   <script src="/js/index.js" type="text/javascript"></script>
   <!--STYLES-->
-    <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/inscriere.css">
+    <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/inscriere.css">
   
   @include('partials._style')
