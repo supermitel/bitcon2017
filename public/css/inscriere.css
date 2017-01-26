@@ -68,12 +68,12 @@
 .formInput .formBar:after {
 	content: '';
 	height: 2px;
-	width: 0;
+	width: 0px;
 	bottom: -1px;
 	position: absolute;
 	background: #42a5f5;
-	-webkit-transition: all 0.2s ease;
-			transition: all 0.2s ease;
+	-webkit-transition: all 1s ease;
+			transition: all 1s ease;
 }
 .formInput .formBar:before {
 	left: 50%;
