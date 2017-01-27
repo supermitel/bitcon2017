@@ -30,6 +30,11 @@ Route::get('profile', function(){
     return view('userProfile', ['user' => Auth::user()]);
 })->middleware('auth');
 
+Route::post('anunturi',function(\Illuminate\Http\Request $request){
+	$content = $request['content'];
+	return View::make('anunturi',['content' => $content]);
+	//return view('/page/anunturi',['content' =>$content]);
+})->name('submit');
 
 
 Auth::routes();
