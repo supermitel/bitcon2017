@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('main');
+    return view('pages.comingsoon');
 });
 
 use Illuminate\Support\Facades\View;
