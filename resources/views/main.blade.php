@@ -104,42 +104,29 @@
 <!-- Container (Portfolio Section) -->
 <br>
   
-  <center><h2>Parteneri</h2></center>
-  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel" >
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox" >
-      <div class="item active">
-        <br><h2>Siemens</h2>
-      </div>
-      <div class="item">
-        <br><h2>Academia de informatica - Brasov</h2>
-      </div>
-      <div class="item">
-        <br><h2>Elektrobit</h2>
-      </div>
-      <div class="item">
-        <br><h2>Universitatea "Transilvania" Brasov</h2>
-      </div>
+  <center><h2>Organizatori</h2></center>
+  <style>
+  h3{
+    color: black;
+  }
+  </style>
+  <div class="row">
+    <div class="col-sm-6">
+    <b><center>
+      <h3> Universitatea TRANSILVANIA din Brașov </h3>
+      <h3> Facultatea de Inginerie Electrică și Știința Calculatoarelor</h3>
+      <h3> Departamentul de Automatică și Tehnologia Informației</h3>
+    </center></b>  
     </div>
+    <div class="col-sm-6">
+    <br>
+      <b><center><h2 style="color: black;"> Academia de Informatică Brașov </h2></center></b>
+    </div>  
 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
+   </div>  
+    
+   <br> 
+
 
 
 <!-- Container (Pricing Section) -->

@@ -21,7 +21,7 @@
 
 <script src="{{URL::to('/js/tinymce.min.js')}}"></script>
 <script>
-	/*var editor_config = {
+	var editor_config = {
 			path_absolute : "{{URL::to('/page')}}/",
 			selector: "textarea",
 			plugins:[
@@ -56,8 +56,8 @@
 			}
 
 
-	};*/
-	tinymce.init(  { selector:'textarea' });
+	};
+	tinymce.init(editor_config);
 </script>
 
 

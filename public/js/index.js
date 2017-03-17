@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
 particlesJS("particles-js", {
+  "move":{"speed": 2000, "enable": true},
   "particles": {
     "number": {
       "value": 200,
@@ -12,7 +13,7 @@ particlesJS("particles-js", {
     "color": {
       "value": ["#111111", "#222222"]
     },
-    
+
     "shape": {
       "type": "circle",
       "stroke": {
@@ -28,7 +29,7 @@ particlesJS("particles-js", {
       "random": false,
       "anim": {
         "enable": false,
-        "speed": 3,
+        "speed": 5000,
         "opacity_min": 0.1,
         "sync": false
       }
@@ -38,14 +39,14 @@ particlesJS("particles-js", {
       "random": true,
       "anim": {
         "enable": false,
-        "speed": 40,
+        "speed": 5000,
         "size_min": 0.1,
         "sync": false
       }
     },
     "line_linked": {
       "enable": true,
-      "distance": 80,
+      "distance": 200,
       "color": "#111",
       "opacity": 0.9,
       "width": 1.2
@@ -73,13 +74,13 @@ particlesJS("particles-js", {
       "bubble": {
         "distance": 600,
         "size": 80,
-        "duration": 8,
+        "duration": 100,
         "opacity": 6,
-        "speed": 3
+        "speed": 200
       },
       "repulse": {
         "distance": 300,
-        "duration": 0.4
+        "duration": 0.1
       },
       "push": {
         "particles_nb": 2
