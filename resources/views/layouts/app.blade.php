@@ -12,7 +12,6 @@
 
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
-    @include('partials._style')
 
     <!-- Scripts -->
     <script>

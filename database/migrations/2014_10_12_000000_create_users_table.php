@@ -18,6 +18,8 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('password');
+            $table->string('level')->default(1); /// 0 = guest  1 = concurent  2 = firma  3 = admin
+            $table->boolean('activated')->default(false);
             $table->rememberToken();
             $table->timestamps();
         });

@@ -18,12 +18,12 @@ Route::get('/', function () {
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\Facades\Auth;
 
-Route::get('/page/{pageName?}', function ($pageName=admin) {
+Route::get('/page/{pageName?}', function ($pageName='admin' ) {
     $pagePath = 'pages.'.$pageName;
     if (View::exists($pagePath)) {
         return view($pagePath);
     }
-    else return view('pages.404');
+    else abort(404);
 });
 
 Route::get('profile', function(){
@@ -39,5 +39,9 @@ Route::post('anunturi',function(\Illuminate\Http\Request $request){
 
 Auth::routes();
 
+
+Route::get('/home', 'HomeController@index');
+
+Auth::routes();
 
 Route::get('/home', 'HomeController@index');
